@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    background-image: url("imgs/zaun.jpeg") ;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    }
+#description{
+    text-align: center;
+}
+
+#survey-form {
+    background-color: #1b1b32;
+    max-width: 600px;
+    margin: auto auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgb(137, 189, 60);
+}
+
+#dropdown{
+    width: 100%;
+}
+
+label{
+    color: #f5f6f7;
+}
+.thick, h1, p {
+    font-weight: bold;
+    color: #f5f6f7;
+}
+h5, a{
+    color: white;
+}
+
+a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    #survey-form {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleIndex.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Game Survey</h1>
+    <p id="description">Thank you for visiting our website</p>
+    <form id="survey-form">
+        <label class="thick" for="name" id="name-label"><u>Name</u></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label class="thick" for="email" id="email-label"><u>Email</u></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label class="thick" for="age" id="age-label"><u>age(optional)</u></label>
+        <input type="text" id="email" name="email" placeholder="Enter your age" required>
+
+        <label class="thick" for="bday" id="bday-label"><u>bday(optional)</u></label>
+        <input type="text" id="bday" name="bday" placeholder="Enter your birthday">
+        
+        <label class="thick" for="number" id="number-label"><u>Number</u></label>
+        <input type="number" id="number" name="number " placeholder="Enter a number" required min="1" max="100">
+
+    <label class="thick" for="dropdown"><u>Gender:</u></label>
+    <select id="dropdown" name="dropdown">
+    <option value= " ">select()</option>
+    <option value= "1">Male</option>
+    <option value= "2">Female</option>
+    <option value= "3">Prefer to not say</option>
+    </select>
+    
+    <br><br>
+    <label class="thick"><u>How often do you play games?</u></label>
+        <div>
+    <input type="radio" id="radio" name="radio-group" value="radio">
+    <label for="always">always</label><br>
+    
+    <input type="radio" id="radio" name="radio-group" value="radio">
+    <label for="often">often</label><br>
+    
+    <input type="radio" id="radio" name="radio-group" value="radio">
+    <label for="notOften">not so often</label><br>
+
+    <input type="radio" id="radio" name="radio-group" value="radio">
+    <label for="sometimes">sometimes</label><br>
+
+    <input type="radio" id="radio" name="radio-group" value="radio">
+    <label for="never">never</label><br>
+    </div>
+<br>
+        <label class="thick">What games(genres) do you like? (Check all that apply)</label>
+        <div>
+            <input type="checkbox" id="action" name="checkbox-group" value="checkbox1">
+            <label for="action">action</label><br>
+
+            <input type="checkbox" id="sports" name="checkbox-group" value="checkbox2">
+            <label for="sports">sports</label><br>
+
+            <input type="checkbox" id="horror" name="checkbox-group" value="checkbox2">
+            <label for="horror">horror</label><br>
+
+            <input type="checkbox" id="sci-fi" name="checkbox-group" value="checkbox2">
+            <label for="sci-fi">sci-fi</label><br>
+
+            <input type="checkbox" id="battle" name="checkbox-group" value="checkbox2">
+            <label for="battle">Battle-Royale</label><br>
+
+            <input type="checkbox" id="adventure" name="checkbox-group" value="checkbox2">
+            <label for="checkbox2">adventure</label><br>
+
+        </div>
+        <br>
+        <label class="thick" for="comments">Why do you play games?</label>
+        <textarea id="comments" name="comments" placeholder="Aa"></textarea>
+        <br>
+    <button id="submit" type="submit">Submit</button>
+    <h5>You can see more of my works in  <a href="https://github.com/henchants/Resume.git">Github</a>.</h2>
+    </form>
+</body>
+</html>
